@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Fake News</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
             <span class="tooltip">History</span>
             </li>
             <li>
-          <a href="#">
+          <a href="politics.html">
             <i class='bx bx-chat' ></i>
             <span class="links_name">Politics</span>
           </a>
@@ -49,7 +50,7 @@
           <span class="tooltip">Strategy</span>
         </li>
         <li>
-            <a href="#">
+            <a href="detect.html">
                 <i class='bx bx-search-alt' ></i>
               <span class="links_name">Detect</span>
             </a>
@@ -84,28 +85,47 @@
         </div>
         <div class="container-2"><img class="landing-vector" src="vector.png"></div>
       </div>
+
+
       <div class="cards">
-        <div class="card-1">
+        <div class="card-1"  data-aos="fade-up" data-aos-duration="2000">
           <img class="politics-img" src="politics.png"><br>
           <h2 style="font-family: Sora,'sans-serif';">Politics</h2><br>
-          <p style="color:#4F6272;">Politics is a popular domain to spread Fake News but how is the politic contending it?</p>
+          <p style="color:#4F6272;">Politics is a popular domain to spread Fake News so how is the politic contending it?</p>
+          <button class="bttn" type="button"><a class="bttn-link" href="politics.html">Learn More &#8594;</a></button>
         </div>
-        <div class="card-2">
+        <div class="card-2" data-aos="fade-up" data-aos-duration="2000">
           <img src="history.png" class="history-img">
           <h2 style="font-family: Sora,'sans-serif';">History</h2><br>
           <p style="color:#4F6272;">Fake News always existed. From the Egyptians to the 21th century, Fake News is still a big problem.</p>
+          <button class="bttn" type="button"><a class="bttn-link" href="history.html">Learn about it &#8594;</a></button>
         </div>
-        <div class="card-3">
+        <div class="card-3" data-aos="fade-up" data-aos-duration="2000">
           <img src="detect.png" class="detect-img">
           <h2 style="font-family: Sora,'sans-serif';">Detect</h2><br>
-          <p style="color:#4F6272;">To avoid Fake News, it is important to know how to detect it!</p>
+          <p style="color:#4F6272;">To avoid Fake News, it is important to know how to detect them!</p>
+          <button class="bttn" type="button"><a class="bttn-link" href="detect.html">Find it out &#8594;</a></button>
+        </div>
+      </div>
+
+      <div class="banner">
+        <div class="banner-card" data-aos="fade-up" data-aos-duration="2000">
+          <img class="banner-image" src="strategy.png">
+          <div class="banner-text"></div>
         </div>
       </div>
 
 
+
+
+
+
       <div class="copyright">Copyright &copy; Yanis Ley</div>
     </div>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script type="text/javascript" src="index.js"></script>
   </body>
   
