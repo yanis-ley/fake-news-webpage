@@ -451,6 +451,11 @@ body{
   font-size: 30px;
   border-radius: 10px;
   background-color: #3D5A80;
+  transition: 0.7s;
+}
+
+.banner-button:hover{
+  background-color: #7bb3a7;
 }
 
 
