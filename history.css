@@ -203,93 +203,50 @@ body{
     transition: all 0.5s ease;
 }
 
+.banner{
+  width: 100%;
+  height: 400px;
+}
 
-
-.title{
-  font-size: 50px;
-  color: #4a4f61;
-  margin-top: 0px;
-  font-family: "Sora", sans-serif;
+.history-banner{
+  margin-left: 170px;
+  width: 80%;
+  height: auto;
 }
 
 .title-div{
-    margin-top: 10px;
-    padding-left: 20px;
-    width: 100%;
-    height: 150px;
-    background-color:#ffffff;
-}
-
-
-.history{
+  margin-top: 5px;
   width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-}
-
-.first-row{
-  margin-top: 20px;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  background-color: #ffffff;
-}
-
-
-.card-1{
-  margin-left: 100px;
-  width: 300px;
-  height: 400px;
-  background-color: #bebebe;
-  border-radius:10px;
-  box-shadow: 5px 5px 10px #7f8a9e;
-}
-
-.card-2{
-  width: 300px;
-  height: 400px;
-  background-color: #bebebe;
-  border-radius:10px;
-  box-shadow: 5px 5px 10px #7f8a9e;
-}
-.card-3{
-  width: 300px;
-  height: 400px;
-  background-color: #bebebe;
-  border-radius:10px;
-  box-shadow: 5px 5px 10px #7f8a9e;
-}
-
-.arrow-right{
-  width: 300px;
-  height: 400px;
-  background-color: transparent;
-  font-size:200px;
-  color: #293241;
+  height:150px;
   text-align: center;
-}
-
-.empty-card{
-  width: 300px;
-  height: 400px;
   background-color: #ffffff;
 }
 
-.second-row{
-  margin-top: 20px;
+.title{
+  font-size: 100px;
+  color:#293241;
+  text-decoration: underline;
+}
+
+.first-row {
   width: 100%;
-  height: 400px;
-  display: flex;
-  background-color: #ffffff;
+  height: 800px;
 }
 
-.arrow-down{
-  width: 300px;
-  height: 400px;
-  background-color: transparent;
-  font-size:200px;
-  color: #293241;
-  text-align: center;
+.paragraph-div{
+  float: left;
+  width: 50%;
+  height: 800px;
+  font-size: 20px;
+  text-align:start ;
 }
 
+.paragraph{
+  width: 70%;
+}
 
+.image{
+  float: right;
+  width: 50%;
+  height: 800px;
+}
