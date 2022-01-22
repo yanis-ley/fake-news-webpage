@@ -14,13 +14,13 @@
 
 body{
   position: relative;
-  height: auto;
+  height: 1070px;
   width: 100%;
 }
 
 ::selection{
-  color: #fff;
-  background: #ffffff; 
+  color: rgb(255, 255, 255);
+  background: #4e557c; 
 }
 
 .sidebar{
@@ -192,6 +192,8 @@ body{
     margin-left: 240px;
 }
 
+
+
 .home_content{
     position: absolute;
     height: 100%;
@@ -200,39 +202,38 @@ body{
     background: #ffffff;
     transition: all 0.5s ease;
 }
+
 .text{
+    margin-top: -30px;
     width: 50%;
     height: 100%;
     float: left;
     text-align: center;
-    background-color: #ffffff;
 }
+
 .title{
-    color: #2b3b58;
     font-size: 150px;
+    color:#293241;
+    margin-left: -200px;
+}
+
+.paragraph {
+    text-align: start;
+    width: 80%;
+    font-size: 20px;
+    margin-left: 110px;
 }
 
 .images{
-    width: 50%;
     float: right;
+    width: 50%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
 }
 
-.political-debate{
-    width: 100%;
-    height: auto;
+.image{
+    margin-left: 150px;
 }
 
-.paragraph-div{
-  margin-left: 180px;
-  width: 100%;
-  height: 400px;
-  font-size: 22px;
-  text-align:justify ;
-  color: #000000;
-}
-
-.paragraph{
-  width: 60%;
+.paragraph-title{
+    font-size: 25px;
 }

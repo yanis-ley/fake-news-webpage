@@ -4,9 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detect | Fake News</title>
+    <link rel="stylesheet" href="/css/detect.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Fake News</title>
 </head>
 <body>
-    
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+            <div class="logo_name" style="font-size: 25px; margin-left:10px; margin-top: 10px;">Menu</div>
+        </div> 
+        <i class='bx bx-menu' id="btn" ></i>
+      </div>
+      <ul class="nav_list">
+        <li style="margin-top: -25px;">
+          <a href="index.html">
+            <i class='bx bxs-home'></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+            <a href="history.html">
+              <i class='bx bxs-book-bookmark'></i>
+                <span class="links_name">History</span>
+            </a>
+            <span class="tooltip">History</span>
+            </li>
+            <li>
+          <a href="politics.html">
+            <i class='bx bx-chat' ></i>
+            <span class="links_name">Politics</span>
+          </a>
+          <span class="tooltip">Politics</span>
+        </li>
+        <li>
+          <a href="strategy.html">
+            <i class='bx bxs-network-chart'></i>
+            <span class="links_name">Strategy</span>
+          </a>
+          <span class="tooltip">Strategy</span>
+        </li>
+        <li>
+            <a href="detect.html">
+                <i class='bx bx-search-alt' ></i>
+              <span class="links_name">Detect</span>
+            </a>
+            <span class="tooltip">Detect</span>
+          </li>
+          <li>
+            <a href="https://github.com/yanis-ley/fake-news-webpage">
+              <i class='bx bxl-github'></i>
+              <span class="links_name">GitHub</span>
+            </a>
+            <span class="tooltip">GitHub</span>  
+          </li>   
+      </ul>
+      <div class="profile_content">
+        <div class="profile">
+          <div class="profile_details">
+            <!--<img src="profile.jpg" alt="">-->
+            <div class="name_job">
+              <div class="name">Codebender</div>
+              <div class="job">Web Developer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home_content">
+        <div class="text">
+            <h1 class="title">Detect</h1>
+            <p class="paragraph">
+                <span class="paragraph-title">To spot fake news, you should follow these steps:</span><br><br>
+                <span class="paragraph-title">1. Check the source:</span><br>
+                Are the sources cited and do they exist?<br><br> 
+                <span class="paragraph-title">2.Check the author:</span><br> 
+                Is he/she clearly identifiable? There must be an "imprint" on every publication. <br>
+                It must contain the name, address and contact details of the person responsible for the messages on the page. <br>
+                If these details are missing, you should be careful.<br>
+                Is this person credible?  Take a closer look at the website or account. What messages and what else can be found on the website/account?<br><br>
+                <span class="paragraph-title">3. Question the purpose:</span><br>
+                Is it information, an opinion or possibly advertising?<br> What is the purpose of the content?<br> Who is the post or page aimed at?<br> Is the article very one-sided and does it represent only one opinion or do other views also have their say?<br><br>
+                <span class="paragraph-title">4. Check the topicality:</span><br>
+                Is there a date somewhere?<br> When was the entry made?<br> And is the news item or are the topics still current at all?<br> Sometimes old news items are linked to a new event even though there is no connection.
+            </p>
+        </div>
+        <div class="images">
+            <img class="image" src="/images/detect.jpg">
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script type="text/javascript" src="/javascript/index.js"></script>
 </body>
-</html>
