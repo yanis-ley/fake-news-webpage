@@ -1,2 +1,2 @@
 # fake-news-webpage
-A website about Fake News
+A website about fake news
